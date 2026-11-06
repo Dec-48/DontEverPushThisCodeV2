@@ -4,7 +4,8 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
+  workflow_dispatch:
+  
 # TODO#0: Declare workflow permissions.
 permissions:
   contents: read
